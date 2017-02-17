@@ -1,0 +1,233 @@
+.body{
+    background-color:black;
+    width:1000px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-bottom: 0px;
+    margin-right: auto;
+    font-family:arial;
+    background-image: url(img/battlefield-4-soldat.jpg);
+    background-repeat: no-repeat;
+}
+.nav{
+    text-align:left; 
+    height:40px;
+}
+.nav ul{
+    padding:10px;
+    height:40px;
+}
+.nav ul li{
+    display:inline-block;
+    margin-right:40px;
+   
+  
+}
+
+.a:link, .nav a:visited{
+    color:black;
+    display: inline-block;
+    padding:20px;
+
+}
+.nav a:hover, .nav a:active,
+.nav .active a:link, .nav .active a.visited
+{
+    background-color:white;
+    text-shadow:none;
+}
+.banner{
+    background-color: rgba(red, green, blue, alpha);
+    width: 1000px;
+    height:400px;
+    float:top;
+    margin-top:5px;
+    margin-bottom:5px;
+    border-radius: 5px;
+   
+}
+.banner{
+    overflow: hidden;
+    height: 400px;
+
+}
+.banner figure div{
+    width: 20%;
+    float: left;
+}
+.banner figure img {
+    width: 100%;
+    float: top;
+
+}
+.banner figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0px;
+    animation: 40s slidy infinite;
+
+} 
+@keyframes slidy{
+    0%{
+        left: 0%;
+    }
+    10%{
+        left: 0%;
+    }
+    12%{
+        left: -100%;
+    }
+    22%{
+        left: -100%
+    }
+    24%{
+        left: -200%;
+    }
+    34%{
+        left: -200%;
+    }
+    36%{
+        left: -300%;
+    }
+    46%{
+        left: -300%;
+    }
+    48%{
+        left: -400%; 
+    }
+    58%{
+        left: -400%;
+    }
+    60%{
+        left: -300%;
+    }
+    70%{
+        left: -300%;
+    }
+    72%{
+        left: -200%;
+    }
+    82%{
+        left: -200%;
+    }
+    84%{
+        left: -100%;
+    }
+    94%{
+        left: -100%;
+    }
+    96%{
+        left: -100%; 
+    }
+    99%{
+        left: -0%;
+    }
+
+    
+}
+a{
+    text-decoration: none;
+    color:gray;
+    font-family:arial;
+    font-size:20px; 
+}
+.footer{    
+   background-color: rgba(red, green, blue, alpha);
+    width:695px;
+    height:200px;
+    float:left;
+    margin-top:5px;
+    padding-left:10px;
+    margin-bottom:40px; 
+    
+}
+.mainFooter{
+          background-color:rgb(red, green, blue);
+          height: 50px;
+          width: 100%;
+          float: left;
+          border-radius: 8px;
+          text-align: center;
+          margin-top: 1000px; 
+ }
+ .comment{
+     float: left;
+     margin-top: 5px;
+ }
+.pic{
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+    float: right;
+    border: solid;
+    border-color:white;
+    border-radius: 20px;
+
+
+}
+.picbig{
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s; 
+    z-index: 20;
+}
+.pic:hover + .picbig{
+    width: 500px;
+}
+.pic2{
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+    float: left;
+
+
+}
+.picbig{
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s; 
+    z-index: 20;
+}
+.pic:hover + .picbig{
+    width: 500px;
+}
+.pic3{
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+
+
+}
+.picbig{
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s; 
+    z-index: 20;
+}
+.pic:hover + .picbig{
+    width: 500px;
+}
+.drawing{
+    background-color: darkslategray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.footer1{    
+    background-color:white;
+    width:290px;
+    height:320px;
+    float:right;
+    margin-top:5px;
+    margin-bottom:40px; 
+}
+.form{
+float: left;
+margin-top: 50px;
+
+}
